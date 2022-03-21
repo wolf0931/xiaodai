@@ -1,2 +1,2 @@
 # 小呆证件照
-![miniprogram/images/ss.png]
+!["查看"(miniprogram/images/ss.png)]
