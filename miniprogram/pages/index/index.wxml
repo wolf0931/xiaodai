@@ -1,0 +1,31 @@
+<view class="container">
+	<view class="container-head">
+	<swiper autoplay circular >
+		<swiper-item class="swiper-item" wx:for="{{bannerList}}" wx:key="_id">
+			<view class="swiper-img" >
+				<image mode="aspectFill" src="../../images/banner.png"></image>
+			</view>
+		</swiper-item>
+	</swiper>
+</view>
+<view class="container-content-section">
+	<text class="container-content-section-title">热门</text>
+</view>
+
+	<view class="container-content">
+		<view
+			wx:for="{{photoSizeList}}"
+			wx:key="name"
+			data-index="{{index}}"
+			bindtap="goNextPage"
+			class="container-content-item ">
+			<view>
+				<view class="title">{{ item.name }}</view>
+				<!-- <image src="/images/take.png"></image> -->
+				<view class="description">{{ item.px }}</view>
+				<view class="description1">{{ item.size }}</view>
+			</view>
+		</view>
+</view>
+
+</view>                   

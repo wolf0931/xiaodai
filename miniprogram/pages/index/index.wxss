@@ -1,0 +1,96 @@
+/* miniprogram/pages/index/index.wxss */
+.container {
+	box-sizing: border-box;
+	width: 100vw;
+	height: 100vh;
+}
+.container-head{
+	width: 100%;
+	height: 600rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #fff;
+}
+swiper {
+	width: 95%;
+	margin: 10px;
+	height: 300rpx;
+}
+.swiper-item {
+	border-radius: 10px;
+	height: 100%;
+}
+
+/* 轮播样式 */
+.swiper-img{
+	background-color: #fff;
+	position: relative;
+	height: 100%;
+}
+.swiper-img image {
+	width: 100%;
+	height: 100%;
+}
+
+.scrollPage {
+	width: 95%;
+	background: rgb(233, 233, 233);
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+	height: 100vh;
+}
+
+.container-content{
+	background: rgb(255, 255, 255);
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+	height: 100%;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+}
+.container-content-section{
+	width: 100%;
+	padding:0 30rpx;
+	margin-top: 20rpx;
+	/* text-align: left; */
+}
+.icon_huo{
+	color: rgb(248, 164, 37);
+}
+.container-content-section-title{
+	color: #333;
+	margin-left: 20rpx;
+}
+.container-content-item {
+	width: 250rpx;
+	height: 200rpx;
+	margin-top: 20rpx;
+	padding: 25rpx 40rpx;
+	background: #A8D70B;
+	display: flex;
+	align-items:center;
+	border-radius: 10rpx;
+	margin-bottom: 20rpx;
+}
+	.container-content-item .title {
+	font-size: 36rpx;
+}
+	.container-content-item .description {
+	font-size: 25rpx;
+	color: #fcfcfc;
+	margin-top: 50rpx;
+}
+.container-content-item .description1 {
+	font-size: 25rpx;
+	color: #ffffff;
+	margin-top: 20rpx;
+}
+	.container-content-item image {
+	width: 50rpx;
+	height: 50rpx;
+}
+
