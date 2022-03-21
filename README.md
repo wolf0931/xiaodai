@@ -1,2 +1,2 @@
 # 小呆证件照
-!["查看"(miniprogram/images/ss.png)]
+![image](https://gitee.com/whbc/xiaodai/blob/master/miniprogram/images/ss.png)
